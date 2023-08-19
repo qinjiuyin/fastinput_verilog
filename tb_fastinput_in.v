@@ -25,7 +25,7 @@ fastinput_in fastinput_in (
 
 
 initial clk=1;
-always #(`clock_period/2) Clk = ~Clk;
+always #(`clock_period/2) clk = ~clk;
 
 initial begin
 rst = 1'b0;
